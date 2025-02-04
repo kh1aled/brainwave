@@ -1,0 +1,64 @@
+.chat{
+
+      .list_chats{
+        .list_items{
+          .item{
+            &.text-Para{
+              color: var(--text);
+              font-size: 1.5rem;
+              padding: 0px 20px 10px 0;
+              line-height: 3rem;
+            }
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 1rem;
+            span{
+              font-size: 2rem;
+            }
+            .try {
+              background-color: rgb(14, 12, 21);
+              border: none;
+              font-family: system-ui;
+              padding: 1rem 2rem;
+              color: #fff;
+              border-top-left-radius: 5px;
+              border-top-right-radius: 25px;
+              border-bottom-left-radius: 5px;
+              border-bottom-right-radius: 5px;
+              position: relative;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              font-size: var(--fs-11);
+              transition: var(--transition);
+              font-family: "Sora-Bold";
+              &:hover {
+                color: #c981f0;
+              }
+              &::after {
+                position: absolute;
+                inset: 0;
+                content: "";
+                height: 117%;
+                width: 105%;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 25px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                background-image: linear-gradient(
+                  to right,
+                  #65aca1,
+                  #c981f0,
+                  #d0ab6b
+                );
+                z-index: -1;
+                top: -3px;
+                left: -2px;
+              }
+            }
+          }
+        }
+      }
+}

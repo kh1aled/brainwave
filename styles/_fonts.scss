@@ -1,0 +1,44 @@
+//sora font
+@font-face {
+  font-family: "sora";
+  src: url("./sora/Sora-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Sora-Bold";
+  src: url("./sora/static/Sora-Bold.ttf");
+}
+@font-face {
+  font-family: "Sora-ExtraBold";
+  src: url("./sora/static/Sora-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Sora-ExtraLight";
+  src: url("./sora/static/Sora-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Sora-Medium";
+  src: url("./sora/static/Sora-Medium.ttf");
+}
+@font-face {
+  font-family: "Sora-Regular";
+  src: url("./sora/static/Sora-Regular.ttf");
+}
+@font-face {
+  font-family: "Sora-SemiBold";
+  src: url("./sora/static/Sora-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Sora-Thin";
+  src: url("./sora/static/Sora-Thin.ttf");
+}
+
+//code font
+@font-face {
+  font-family: "code";
+  src: url("./code/SourceCodePro-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "code-bold";
+  src: url("./code/static/SourceCodePro-Bold.ttf");
+}
+

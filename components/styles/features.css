@@ -1,0 +1,56 @@
+.features .features_title h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+.features .features_items .items {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+}
+.features .features_items .items li {
+  z-index: 1;
+  padding: 38px !important;
+  overflow: hidden;
+  width: 100%;
+  background: #0d091c;
+  border-radius: 10px;
+  padding: 2.4rem;
+  cursor: pointer;
+}
+.features .features_items .items li:hover .image_container {
+  opacity: 0.6;
+}
+.features .features_items .items li .image_container {
+  opacity: 0;
+  z-index: -1;
+}
+.features .features_items .items li .image_container img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.features .features_items .items li h5 {
+  font-size: 2.5rem;
+  line-height: 2rem;
+  line-height: 1.5;
+}
+.features .features_items .items li .desc {
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  color: var(--text);
+  margin-bottom: 90px;
+}
+.features .features_items .items li .explore .button_explore p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  transition: var(--transition);
+}
+.features .features_items .items li .explore .button_explore p:hover {
+  color: var(--bink);
+}
+.features .features_items .items li .explore .button_explore svg {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=features.css.map */

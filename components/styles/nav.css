@@ -1,0 +1,122 @@
+.navbar {
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.navbar .nav-links .nav-link {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7);
+  transition: var(--transition);
+  font-size: var(--fs-11);
+}
+.navbar .nav-links .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+.navbar .login_container button {
+  text-transform: uppercase !important;
+  font-size: var(--fs-10);
+  font-family: "Sora-SemiBold";
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer !important;
+}
+.navbar .login_container button.newacc {
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+.navbar .list_btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e91e63;
+  border-radius: 4px;
+  border-top-right-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar .list_btn span {
+  width: 70%;
+  height: 2px;
+  background-color: #fff;
+  transform-origin: left;
+}
+.navbar .list_btn span:nth-child(2) {
+  margin-top: 10px;
+}
+.navbar .list_btn.opened span {
+  transition: var(--transition);
+}
+.navbar .list_btn.opened span:nth-child(1) {
+  transform: rotateZ(45deg) translateY(-5px);
+}
+.navbar .list_btn.opened span:nth-child(2) {
+  transform: rotateZ(-45deg) translateY(4px);
+}
+.navbar .mobile_list {
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  height: 86vh;
+  z-index: 1111;
+  left: 0;
+  display: none;
+  background-color: rgb(14, 12, 21);
+  background-image: url("/assets/grid.png");
+}
+.navbar .mobile_list.active {
+  display: block;
+}
+.navbar .mobile_list .mobile_nav {
+  width: 100%;
+  height: 100%;
+}
+.navbar .mobile_list .mobile_nav li {
+  transition: var(--transition);
+}
+.navbar .mobile_list .mobile_nav li a {
+  font-size: 2.8rem;
+  padding: 3.9rem;
+  font-family: "code";
+}
+.navbar .mobile_list .mobile_nav li:hover {
+  color: var(--bink);
+}
+
+@media screen and (max-width: 1022px) {
+  .navbar .container {
+    max-width: 100%;
+  }
+  .navbar .list_btn {
+    display: flex;
+  }
+  .navbar .nav-links {
+    display: none;
+  }
+  .navbar .login_container {
+    display: none;
+  }
+}
+@media screen and (min-width: 1022px) {
+  .navbar .container {
+    max-width: 100%;
+  }
+  .navbar .list_btn {
+    display: none;
+  }
+  .navbar .nav-links {
+    display: flex;
+  }
+  .navbar .nav-links .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+  }
+  .navbar .login_container {
+    display: flex;
+  }
+  .navbar .new_acc {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=nav.css.map */
