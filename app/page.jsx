@@ -1,6 +1,6 @@
 "use client";
 import Hero from "@components/design/Hero";
-import Features from "@components/components/design/Features";
+// import Features from "@components/components/design/Features";
 import Chat from "@components/design/Chat";
 import How from "@components/design/How_to_use";
 import Price from "@components/design/Price";
@@ -11,7 +11,7 @@ const page = () => {
   return (
     <div className='w-full'>
         <Hero/>
-        <Features/>
+        {/* <Features/> */}
         <Chat/>
         <How/>
         <Price/>
