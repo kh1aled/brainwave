@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="features       py-10 lg:py-16 xl:py-20   mt-6"
+      className="features py-10 lg:py-16 xl:py-20   mt-6"
     >
       <div className="container">
         <div className="features_title mb-2">
