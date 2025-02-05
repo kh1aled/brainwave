@@ -7,7 +7,7 @@
 .chat .list_chats .list_items .item.text-Para {
   color: var(--text);
   font-size: 1.5rem;
-  padding: 0px 20px 10px 0;
+  padding: 0px 20px 0px 0;
   line-height: 3rem;
 }
 .chat .list_chats .list_items .item span {

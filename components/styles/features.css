@@ -1,6 +1,11 @@
+.features {
+  position: relative;
+  z-index: 11;
+}
 .features .features_title h1 {
   font-size: 2.5rem;
   letter-spacing: 1px;
+  line-height: 1.8;
 }
 .features .features_items .items {
   width: 100%;
@@ -12,7 +17,9 @@
   padding: 38px !important;
   overflow: hidden;
   width: 100%;
-  background: #0d091c;
+  background: rgba(11, 9, 18, 0.8196078431);
+  -webkit-clip-path: polygon(0 0, 85% 0, 100% 18%, 100% 100%, 0 100%, 0 26%);
+          clip-path: polygon(0 0, 85% 0, 100% 18%, 100% 100%, 0 100%, 0 26%);
   border-radius: 10px;
   padding: 2.4rem;
   cursor: pointer;

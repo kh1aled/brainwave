@@ -16,8 +16,8 @@ const How = () => {
           Brainwave unlocks the potential of AI-powered applications
         </p>
 
-        <div className="realtive">
-          <div className="relative bg-item z-1 flex items-center justify-center h-[59rem] mb-5 p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+        <div className="realtive mt-[8rem]">
+          <div className="relative bg-item z-1 flex items-center justify-center h-[59rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className=" absolute left-0 top-0 w-full h-full ">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -55,7 +55,7 @@ const How = () => {
             </div>
             <Loading myclassName="how_loading" />
           </div>
-          <div className="relative bg-item-2 z-1 flex items-end justify-center h-[59rem] mb-5 p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative bg-item-2 z-1 flex items-end justify-center h-[59rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className=" absolute left-0 top-0 w-full h-full ">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -87,7 +87,7 @@ const How = () => {
               </p>
             </div>
           </div>
-          <div className="relative bg-item-3 z-1 flex items-center flex-col justify-start h-[59rem] mb-5 p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative bg-item-3 z-1 flex items-center flex-col justify-start h-[59rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
         
 
             <div className="relative z-1 max-w-[30rem] mt-[8rem]">

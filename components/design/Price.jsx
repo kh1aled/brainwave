@@ -16,7 +16,7 @@ const Price = () => {
         </h2>
 
         <div className="realtive mt-20">
-          <div className="relative z-1 h-[65rem] mb-5 p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 h-[65rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <h1 className="text-yellow text-[2.75rem] my-4 leading-[2.5rem]">
               Basic
             </h1>
@@ -97,9 +97,7 @@ const Price = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="realtive mt-20">
-          <div className="relative z-1 h-[67rem] mb-5 p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 h-[67rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <h1 className="text-bink text-[2.75rem] my-4 leading-[2.5rem]">
               Premium
             </h1>
@@ -180,9 +178,7 @@ const Price = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="realtive mt-20">
-          <div className="relative z-1 h-[67rem] mb-5 p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 h-[67rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <h1 className="text-bink text-[2.75rem] my-4 leading-[2.5rem]">
               Premium
             </h1>
@@ -223,9 +219,7 @@ const Price = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="realtive mt-20">
-          <div className="relative z-1 h-[63rem] mb-5 p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 h-[63rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <h1 className="text-red text-[2.75rem] my-4 leading-[2.5rem]">
               Enterprise
             </h1>

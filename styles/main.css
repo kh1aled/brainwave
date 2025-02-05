@@ -86,8 +86,31 @@ body {
   border-color: rgba(255, 255, 255, 0.1019607843);
 }
 
+.border-n-2\/5 {
+  border-color: rgba(202, 198, 221, 0.0509803922);
+}
+
+.border-n-2\/10 {
+  border-color: rgba(202, 198, 221, 0.1019607843);
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+}
+
+.texy-color-1 {
+  --tw-text-opacity: 1;
+  color: rgb(172 106 255/var(--tw-text-opacity));
+}
+
 .bg-n-8 {
   background-color: rgb(14, 12, 21);
+}
+
+.bg-n-9 {
+  background-color: rgba(14, 12, 21, 0.5);
 }
 
 .bg-n-7 {
@@ -231,6 +254,20 @@ html {
 
 .bg-conic-gradient {
   background-image: conic-gradient(from 225deg, #ffc876, #79fff7, #9f53ff, #ff98e2, #ffc876);
+}
+
+.clipped_1 {
+  -webkit-clip-path: polygon(0 0, 85% 0, 100% 18%, 100% 100%, 0 100%, 0 26%);
+          clip-path: polygon(0 0, 85% 0, 100% 18%, 100% 100%, 0 100%, 0 26%);
+}
+
+.clipped_2 {
+  -webkit-clip-path: polygon(0 0, 65% 0, 100% 28%, 100% 100%, 0 100%, 0 26%);
+          clip-path: polygon(0 0, 65% 0, 100% 28%, 100% 100%, 0 100%, 0 26%);
+}
+
+.bg-n-8\/90 {
+  background-color: rgba(14, 12, 21, 0.9019607843);
 }
 
 .bg-item {

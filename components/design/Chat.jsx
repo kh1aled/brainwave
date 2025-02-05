@@ -6,11 +6,11 @@ import Title from "@components/Title";
 
 const Chat = () => {
   return (
-    <section id="chat" className="chat p-4 mt-6">
+    <section id="chat" className="chat py-20 l lg:py-32 xl:py-40  mt-6">
       <div className="container">
 
         <Title myclassName="chat_title" value="AI Chat App for seamless collaboration"/>
-        <div className="list_chats mt-24">
+        <div className="list_chats mt-8">
           <ul className="list_items flex flex-col justify-start align-items-center gap-20">
             <li className="item">
               <img src="/assets/check.svg" alt="" />
@@ -33,7 +33,7 @@ const Chat = () => {
             <li className="item">
               <Button myclassName="try" value="try it now " />
             </li>
-            <li className="item text-Para">
+            <li className="item text-Para mb-12">
               With smart automation and top-notch security, it's the perfect
               solution for teams looking to work smarter.
             </li>
@@ -42,8 +42,8 @@ const Chat = () => {
 
         <div className=" my-5 relative left-1/2 flex w-[35rem] aspect-square border border-n-6 -translate-x-1/2 scale:75 md:scale-100 rounded-full">
           <div className="flex w-80 aspect-square m-auto border border-n-6 rounded-full">
-            <div className="w-[8rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient ">
-              <div className="flex items-center  justify-center w-full h-full bg-n-8 ">
+            <div className="w-[8rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
+              <div className="flex items-center  justify-center w-full h-full bg-n-8  rounded-full">
                 <img
                   src="/assets/brainwave-symbol.svg"
                   width="48"

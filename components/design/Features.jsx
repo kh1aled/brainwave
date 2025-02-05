@@ -3,16 +3,23 @@ import "@components/styles/features.css";
 
 const Features = () => {
   return (
-    <section id="features" className="features p-4 mt-6">
+    <section
+      id="features"
+      className="features       py-10 lg:py-16 xl:py-20   mt-6"
+    >
       <div className="container">
         <div className="features_title mb-2">
           <h1 className="h1">Chat Smarter, Not Harder with Brainwave</h1>
         </div>
         <div className="features_items p-3">
           <ul className="items">
-            <li className="item myImage relative"> 
+            <li className="item myImage relative">
               <div className="image_container absolute top-0 left-0 right-0 bottom-0">
-                <img src="/assets/benefits/image-2.png" className="w-full h-full" alt="" />
+                <img
+                  src="/assets/benefits/image-2.png"
+                  className="w-full h-full"
+                  alt=""
+                />
               </div>
               <h5 className="h5 mb-5">Ask anything</h5>
               <p className="desc">
@@ -31,9 +38,13 @@ const Features = () => {
                 </div>
               </div>
             </li>
-            <li className="item myImage relative"> 
+            <li className="item myImage relative">
               <div className="image_container absolute top-0 left-0 right-0 bottom-0">
-                <img src="/assets/benefits/image-2.png" className="w-full h-full" alt="" />
+                <img
+                  src="/assets/benefits/image-2.png"
+                  className="w-full h-full"
+                  alt=""
+                />
               </div>
               <h5 className="h5 mb-5">Improve everyday</h5>
               <p className="desc">
@@ -52,9 +63,13 @@ const Features = () => {
                 </div>
               </div>
             </li>
-            <li className="item myImage relative"> 
+            <li className="item myImage relative">
               <div className="image_container absolute top-0 left-0 right-0 bottom-0">
-                <img src="/assets/benefits/image-2.png" className="w-full h-full" alt="" />
+                <img
+                  src="/assets/benefits/image-2.png"
+                  className="w-full h-full"
+                  alt=""
+                />
               </div>
               <h5 className="h5 mb-5">Connect everywhere</h5>
               <p className="desc">
@@ -73,9 +88,13 @@ const Features = () => {
                 </div>
               </div>
             </li>
-            <li className="item myImage relative"> 
+            <li className="item myImage relative">
               <div className="image_container absolute top-0 left-0 right-0 bottom-0">
-                <img src="/assets/benefits/image-2.png" className="w-full h-full" alt="" />
+                <img
+                  src="/assets/benefits/image-2.png"
+                  className="w-full h-full"
+                  alt=""
+                />
               </div>
               <h5 className="h5 mb-5">Fast responding</h5>
               <p className="desc">
@@ -94,9 +113,13 @@ const Features = () => {
                 </div>
               </div>
             </li>
-            <li className="item myImage relative"> 
+            <li className="item myImage relative">
               <div className="image_container absolute top-0 left-0 right-0 bottom-0">
-                <img src="/assets/benefits/image-2.png" className="w-full h-full" alt="" />
+                <img
+                  src="/assets/benefits/image-2.png"
+                  className="w-full h-full"
+                  alt=""
+                />
               </div>
               <h5 className="h5 mb-5">Ask anything</h5>
               <p className="desc">
@@ -115,9 +138,13 @@ const Features = () => {
                 </div>
               </div>
             </li>
-            <li className="item myImage relative"> 
+            <li className="item myImage relative">
               <div className="image_container absolute top-0 left-0 right-0 bottom-0">
-                <img src="/assets/benefits/image-2.png" className="w-full h-full" alt="" />
+                <img
+                  src="/assets/benefits/image-2.png"
+                  className="w-full h-full"
+                  alt=""
+                />
               </div>
               <h5 className="h5 mb-5">Improve everyday</h5>
               <p className="desc">
