@@ -10,7 +10,7 @@
 
     z-index: 10;
     .img_container {
-      .image_inside{
+      .image_inside {
         z-index: -1;
       }
       .mySpan {
@@ -55,7 +55,6 @@
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
           }
-          height: 60vh;
           border-bottom-right-radius: 12px;
           border-bottom-left-radius: 12px;
           position: relative;
@@ -98,9 +97,9 @@
   }
 
   .h1 {
-    font-size: 4.5rem;
+    // font-size: 4.5rem;
     font-weight: 600;
-    line-height: 5.7rem;
+    // line-height: 5.7rem;
     font-family: "Sora-SemiBold";
   }
   .p {
@@ -122,5 +121,45 @@
     border-radius: 5px;
     margin: 10px auto;
     text-transform: capitalize;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .hero {
+    h1 {
+      letter-spacing: -1px;
+      span {
+        margin-left: 1rem;
+      }
+    }
+    p {
+      font-size: 2rem;
+      line-height: 3rem;
+
+      max-width: 68rem;
+    }
+    .button {
+      width: 13rem;
+      margin: 2rem 0;
+      span {
+        font-size: 1.1rem;
+      }
+    }
+    .img_container {
+      // max-width: 37rem;
+      .circles {
+        top: -38.375rem;
+      }
+    }
+  }
+}
+@media screen and (min-width: 576px) {
+  .hero {
+    .img_container {
+      // max-width: 37rem;
+      .circles {
+        top: -47.375rem;
+      }
+    }
   }
 }

@@ -15,47 +15,46 @@ const How = () => {
         <p className="text-Para text-n-4">
           Brainwave unlocks the potential of AI-powered applications
         </p>
-
-        <div className="realtive mt-[8rem]">
-          <div className="relative bg-item z-1 flex items-center justify-center h-[59rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <div className=" absolute left-0 top-0 w-full h-full ">
-              <img
-                className="w-full h-full object-cover md:object-right"
-                src="/assets/services/service-1.png"
-                alt=""
-              />
-            </div>
-            <div className="relative z-1 max-w-[30rem]">
-              <h4 className="text-[3.3rem] leading-[1.5rem] mb-4">
-                Smartest AI
-              </h4>
-              <p className="text-[1.4rem] leading-[2rem] mt-[3rem] mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
-              </p>
-              <ul className="body-2">
-                <li className="flex items-center py-7 border-t border-n-6">
-                  <img src="/assets/check.svg" alt="" />
-                  <p className="ml-4 text-[1.5rem] leading-[1.5rem]">
-                    Photo generating
-                  </p>
-                </li>
-                <li className="flex items-center  py-7 border-t border-n-6">
-                  <img src="/assets/check.svg" alt="" />
-                  <p className="ml-4 text-[1.5rem] leading-[1.5rem]">
-                    Photo enhance
-                  </p>
-                </li>
-                <li className="flex items-center  py-7 border-t border-n-6">
-                  <img src="/assets/check.svg" alt="" />
-                  <p className="ml-4 text-[1.5rem] leading-[1.5rem]">
-                    Seamless Integration
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <Loading myclassName="how_loading" />
+      </div>
+      <div className="realtive mt-[8rem]">
+        <div className="relative bg-item z-1 flex items-center justify-center h-[59rem] mb-[3.25rem]  border border-n-10 rounded-3xl overflow-hidden xl:h-[46rem]">
+          <div className=" absolute left-0 top-0 w-full h-full ">
+            <img
+              className="w-full h-full object-cover md:object-right"
+              src="/assets/services/service-1.png"
+              alt=""
+            />
           </div>
-          <div className="relative bg-item-2 z-1 flex items-end justify-center h-[59rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 max-w-[30rem]">
+            <h4 className="text-[3.3rem] leading-[1.5rem] mb-4">Smartest AI</h4>
+            <p className="text-[1.4rem] leading-[2rem] mt-[3rem] mb-[3rem] text-n-3">
+              Brainwave unlocks the potential of AI-powered applications
+            </p>
+            <ul className="body-2">
+              <li className="flex items-center py-7 border-t border-n-6">
+                <img src="/assets/check.svg" alt="" />
+                <p className="ml-4 text-[1.5rem] leading-[1.5rem]">
+                  Photo generating
+                </p>
+              </li>
+              <li className="flex items-center  py-7 border-t border-n-6">
+                <img src="/assets/check.svg" alt="" />
+                <p className="ml-4 text-[1.5rem] leading-[1.5rem]">
+                  Photo enhance
+                </p>
+              </li>
+              <li className="flex items-center  py-7 border-t border-n-6">
+                <img src="/assets/check.svg" alt="" />
+                <p className="ml-4 text-[1.5rem] leading-[1.5rem]">
+                  Seamless Integration
+                </p>
+              </li>
+            </ul>
+          </div>
+          <Loading myclassName="how_loading" />
+        </div>
+        <div className="lg:grid lg:grid-cols-2 gap-6 lg:px-[5rem]">
+          <div className="relative bg-item-2 z-1 flex items-end justify-center h-[59rem] lg:h-[70rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hiddenxl:h-[46rem]">
             <div className=" absolute left-0 top-0 w-full h-full ">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -87,9 +86,7 @@ const How = () => {
               </p>
             </div>
           </div>
-          <div className="relative bg-item-3 z-1 flex items-center flex-col justify-start h-[59rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-        
-
+          <div className="relative  lg:p-[2rem]  bg-item-3 z-1 flex items-center flex-col justify-start h-[59rem] sm:h-[70rem] mb-[3.25rem] lg:h-[70rem] p-8 border border-n-10 rounded-3xl overflow-hidden  xl:h-[46rem]">
             <div className="relative z-1 max-w-[30rem] mt-[8rem]">
               <h4 className="text-[3.3rem] leading-[1.5rem] mb-4">
                 Photo editing{" "}
@@ -128,7 +125,7 @@ const How = () => {
               </li>
             </ul>
 
-            <div className="relative h-[24rem] mt-[4rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+            <div className="relative w-full h-[24rem] lg:h-[36rem] mt-[4rem] bg-n-8 rounded-xl overflow-hidden sm:h-[40rem] md:h-[25rem]">
               <img
                 src="/assets/services/service-3.png"
                 className="w-full h-full object-cover"
@@ -139,7 +136,12 @@ const How = () => {
               <div className="absolute top-8 left-[3.125rem] w-full max-w-[14rem] pt-2.5 pr-2.5 pb-7 pl-5 bg-n-6 rounded-t-xl rounded-br-xl font-code text-base md:max-w-[17.5rem]">
                 Video generated!
                 <div className="absolute left-5 -bottom-[1.125rem] flex items-center justify-center w-[2.25rem] h-[2.25rem] bg-color-1 rounded-[0.75rem]">
-                  <img src="/assets/brainwave-symbol-white.svg" width="26" height="26" alt="Brainwave" />
+                  <img
+                    src="/assets/brainwave-symbol-white.svg"
+                    width="26"
+                    height="26"
+                    alt="Brainwave"
+                  />
                 </div>
                 <p className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase">
                   just now

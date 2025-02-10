@@ -11,7 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        color_black:"var(--black)"
+        color_black:"var(--black)",
+        bink:"var(--bink)"
       },
         rotate: {
           '135': '135deg',

@@ -264,6 +264,9 @@ html {
 .clipped_2{
   clip-path: polygon(0 0, 65% 0, 100% 28%, 100% 100%, 0 100%, 0 26%);
 }
+.clipped_3{
+  clip-path: polygon(0 0, 85% 0, 100% 28%, 100% 100%, 0 100%, 0 26%);
+}
 
 .bg-n-8\/90 {
   background-color: #0e0c15e6;
@@ -374,4 +377,12 @@ html {
 .caption {
   font-size: .875rem;
   line-height: 1.25rem;
+}
+
+.myTransitoin{
+  transition: var(--transition);
+}
+
+.bg-stroke-1 {
+  background-color: rgb(38 36 44 / 1);
 }

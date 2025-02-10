@@ -10,10 +10,11 @@ const Work = () => {
       <div className="container">
         <Tag myClass={"price_tag"} value={"Get started with Brainwave"} />
 
-        <Title myclassName="work_title" value="What we’re working on" />
+        <Title myClass="work_title lg:text-center lg:text-[6rem]" value="What we’re working on" />
 
-        <div className="realtive mt-20">
-          <div className="relative z-1 h-[54rem] bg-conic-gradient mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden lg:p-20 xl:h-[46rem]">
+      </div>
+        <div className="realtive mt-20 grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem] lg:px-[4rem]">
+          <div className="relative z-1 h-[54rem] sm:h-[69rem] bg-conic-gradient mb-5 p-[0.1rem] rounded-[2.4375rem] overflow-hidden xl:h-[46rem]">
             <div className="relative w-full h-full p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
               <div class="absolute top-0 left-0 max-w-full">
                 <img
@@ -55,7 +56,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-1 h-[51rem] border border-n-6 mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 h-[51rem] md:even:translate-y-[6rem] sm:h-[69rem] border border-n-6 mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden xl:h-[46rem]">
             <div className="relative w-full h-full p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
               <div class="absolute top-0 left-0 max-w-full">
                 <img
@@ -96,7 +97,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-1 h-[51rem] border border-n-6  mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 h-[51rem] sm:h-[69rem] border border-n-6  mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden xl:h-[46rem]">
             <div className="relative w-full h-full p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
               <div class="absolute top-0 left-0 max-w-full">
                 <img
@@ -137,7 +138,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-1 h-[51rem] border border-n-6  mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 h-[51rem] md:even:translate-y-[6rem] sm:h-[69rem] border border-n-6  mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden xl:h-[46rem]">
             <div className="relative w-full h-full p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
               <div class="absolute top-0 left-0 max-w-full">
                 <img
@@ -164,7 +165,7 @@ const Work = () => {
                 <div class="mb-10 -my-10 -mx-15">
                   <img
                     class="w-full"
-                    src="/assets/roadmap/image-2.png"
+                    src="/assets/roadmap/image-3.png"
                     width="628"
                     height="426"
                     alt="Voice recognition"
@@ -178,7 +179,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="relative z-1 h-[51rem] border border-n-6  mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 h-[51rem] sm:h-[69rem] border border-n-6  mb-5 p-[0.0625rem] rounded-[2.4375rem] overflow-hidden xl:h-[46rem]">
             <div className="relative w-full h-full p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
               <div class="absolute top-0 left-0 max-w-full">
                 <img
@@ -222,8 +223,7 @@ const Work = () => {
           </div>
         </div>
 
-        <Button myClass={"roadmap_btn mt-20 m-auto"} value={"OUR ROADMAP"}/>
-      </div>
+        <Button myClass={"roadmap_btn mt-20 m-auto " } value={"OUR ROADMAP"}/>
     </section>
   );
 };

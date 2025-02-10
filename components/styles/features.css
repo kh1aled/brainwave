@@ -60,4 +60,12 @@
   fill: #fff;
   width: 24px;
   height: 24px;
+}
+
+@media (min-width: 1024px) {
+  .features .features_title h1 {
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
 }/*# sourceMappingURL=features.css.map */

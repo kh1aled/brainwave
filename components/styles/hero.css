@@ -43,7 +43,6 @@
   background-image: conic-gradient(from 225deg, #ffc876, #79fff7, #9f53ff, #ff98e2, #ffc876);
 }
 .hero .container .img_container .bg-conic-gradient .robot_image {
-  height: 60vh;
   border-bottom-right-radius: 12px;
   border-bottom-left-radius: 12px;
   position: relative;
@@ -88,9 +87,7 @@
   transform: translate(-50%, -50%);
 }
 .hero .h1 {
-  font-size: 4.5rem;
   font-weight: 600;
-  line-height: 5.7rem;
   font-family: "Sora-SemiBold";
 }
 .hero .p {
@@ -112,4 +109,33 @@
   border-radius: 5px;
   margin: 10px auto;
   text-transform: capitalize;
+}
+
+@media screen and (min-width: 576px) {
+  .hero h1 {
+    letter-spacing: -1px;
+  }
+  .hero h1 span {
+    margin-left: 1rem;
+  }
+  .hero p {
+    font-size: 2rem;
+    line-height: 3rem;
+    max-width: 68rem;
+  }
+  .hero .button {
+    width: 13rem;
+    margin: 2rem 0;
+  }
+  .hero .button span {
+    font-size: 1.1rem;
+  }
+  .hero .img_container .circles {
+    top: -38.375rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .hero .img_container .circles {
+    top: -47.375rem;
+  }
 }/*# sourceMappingURL=hero.css.map */

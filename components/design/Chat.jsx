@@ -7,10 +7,13 @@ import Title from "@components/Title";
 const Chat = () => {
   return (
     <section id="chat" className="chat py-20 l lg:py-32 xl:py-40  mt-6">
-      <div className="container">
+      <div className="container mx-auto ">
 
         <Title myclassName="chat_title" value="AI Chat App for seamless collaboration"/>
-        <div className="list_chats mt-8">
+
+        <div className="lg:grid lg:grid-cols-2">
+
+        <div className="list_chats mt-8 ">
           <ul className="list_items flex flex-col justify-start align-items-center gap-20">
             <li className="item">
               <img src="/assets/check.svg" alt="" />
@@ -96,7 +99,10 @@ const Chat = () => {
             </li>
           </ul>
         </div>
+        </div>
+
       </div>
+
     </section>
   );
 };

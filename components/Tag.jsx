@@ -25,7 +25,7 @@ const Tag = ({ value, myClass }) => {
           </linearGradient>
         </defs>
       </svg>
-      <div className="mx-3 text-n-3 text-[1.5rem]">{value}</div>
+      <div className="mx-3 text-n-3 text-[1.5rem] sm:text-[1.1rem]">{value}</div>
       <svg
         width="5"
         height="14"

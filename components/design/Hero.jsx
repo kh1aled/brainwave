@@ -4,12 +4,12 @@ import "@components/styles/hero.css";
 const Hero = () => {
   return (
     <section className='hero  pt-[16rem] -mt-[5.25rem]" mb-[4rem] text-center relative'>
-      <div className="container">
+      <div className="container md:max-w-[90rem]">
         <div className="circle c1"></div>
-        <h1 className="h1 relative z-2 mb-[4rem]">
-          Explore the <br /> Possibilities <br /> of AI Chatting with <br />{" "}
+        <h1 className="h1 relative z-2 mb-[4rem] lg:text-[5.2rem] lg:leading-[7rem]">
+          Explore the Possibilities of AI Chatting with
           <span className="inline-block relative">
-            Brainwave{" "}
+            Brainwave
             <img
               width={"624"}
               height={"28"}
@@ -18,7 +18,8 @@ const Hero = () => {
             />
           </span>
         </h1>
-        <p className="p body-1 z-1 max-w-3xl mx-auto  relative text-n-2 lg:mb-8">
+
+        <p className="p body-1 z-1 md:text-[1.1rem] md:leading-[2.4rem]  lg:text-[2rem] lg:leading-[3rem] max-w-3xl mx-auto  relative text-n-2 lg:mb-8">
           Unleash the power of AI within Brainwave. Upgrade your productivity
           with Brainwave, the open AI chat app.
         </p>
@@ -70,7 +71,7 @@ const Hero = () => {
             ></path>
           </svg>
         </a>
-        <div className="img_container mt-[4rem] relative max-w-[33rem] mx-auto md:max-w-5xl xl:mb-24">
+        <div className="img_container mt-[4rem] lg:mt-[8rem] sm:max-w-[73rem] relative max-w-[33rem] md:max-w-[100rem]  mx-auto xl:mb-24">
           {/* <img src="/assets/hero/robot.jpg" className="absloute img_bg" alt="" /> */}
           <div className="absolute image_inside -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
@@ -80,7 +81,7 @@ const Hero = () => {
             />
           </div>
           <div className="relative z-1 p-0.5 overflow-hidden rounded-2xl  bg-conic-gradient">
-            <div className="robot_image w-full ">
+            <div className="robot_image w-full sm:h-[73vh] md:h-[100vh] lg:h-[65vh]">
               <div className="top_banner w-full absolute"></div>
               <img src="/assets/hero/robot.jpg" alt="" />
               {/* <div className="loading_ai absolute flex justify-start items-center gap-3">
@@ -95,7 +96,7 @@ const Hero = () => {
               <div className="bottom_2"></div>
             </div>
           </div>
-          <div className="absolute -top-[79.375rem] left-1/2 w-[78rem] aspect-square border border-n-2/5 rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[32rem]">
+          <div className="absolute circles -top-[79.375rem] left-1/2 w-[78rem] md:w-[100rem] aspect-square border border-n-2/5 rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[32rem]">
             <div className="absolute top-1/2 left-1/2 w-[65.875rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
             <div className="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
             <div className="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
