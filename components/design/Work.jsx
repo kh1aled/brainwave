@@ -223,7 +223,7 @@ const Work = () => {
           </div>
         </div>
 
-        <Button myclassName={"roadmap_btn mt-20 m-auto " } value={"OUR ROADMAP"}/>
+        <Button myClass={"roadmap_btn mt-20 mx-auto " } value={"OUR ROADMAP"}/>
     </section>
   );
 };

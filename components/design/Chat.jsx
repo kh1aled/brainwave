@@ -43,7 +43,7 @@ const Chat = () => {
           </ul>
         </div>
 
-        <div className=" my-5 relative left-1/2 flex w-[35rem] aspect-square border border-n-6 -translate-x-1/2 scale:75 md:scale-100 rounded-full">
+        <div className=" my-5 relative left-1/2 flex w-[30rem] md:w-[35rem] aspect-square border border-n-6 -translate-x-1/2 scale:75 md:scale-100 rounded-full">
           <div className="flex w-80 aspect-square m-auto border border-n-6 rounded-full">
             <div className="w-[8rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
               <div className="flex items-center  justify-center w-full h-full bg-n-8  rounded-full">
@@ -59,42 +59,42 @@ const Chat = () => {
           <ul>
             <li className=" absolute left-1/2 top-0 h-1/2 -ml-[2rem] origin-bottom rotate-0">
               <div className="relative -top-[1.6rem] flex w-[4.5rem] h-[4.5rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-0">
-              <img className="m-auto" width="26" height="36" alt="Figma" src="/assets/collaboration/figma.png"></img>
+              <img className="m-auto" width="26" height="36" alt="Figma" src="/assets/collaboration/figma.png" />
               </div>
             </li>
             <li className=" absolute left-1/2 top-0 h-1/2 -ml-[2rem] origin-bottom rotate-45">
               <div className="relative -top-[1.6rem] flex w-[4.5rem] h-[4.5rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-45">
-              <img className="m-auto" width="26" height="36" alt="Notion" src="/assets/collaboration/Notion.png"></img>
+              <img className="m-auto" width="26" height="36" alt="Notion" src="/assets/collaboration/Notion.png"/>
               </div>
             </li>
             <li className=" absolute left-1/2 top-0 h-1/2 -ml-[2rem] origin-bottom rotate-90">
               <div className="relative -top-[1.6rem] flex w-[4.5rem] h-[4.5rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-90">
-              <img className="m-auto" width="26" height="36" alt="Discord" src="/assets/collaboration/Discord.png"></img>
+              <img className="m-auto" width="26" height="36" alt="Discord" src="/assets/collaboration/Discord.png"/>
               </div>
             </li>
             <li className=" absolute left-1/2 top-0 h-1/2 -ml-[2rem] origin-bottom rotate-135">
               <div className="relative -top-[1.6rem] flex w-[4.5rem] h-[4.5rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-135">
-              <img className="m-auto" width="26" height="36" alt="Slack" src="/assets/collaboration/Slack.png"></img>
+              <img className="m-auto" width="26" height="36" alt="Slack" src="/assets/collaboration/Slack.png"/>
               </div>
             </li>
             <li className=" absolute left-1/2 top-0 h-1/2 -ml-[2rem] origin-bottom rotate-180">
               <div className="relative -top-[1.6rem] flex w-[4.5rem] h-[4.5rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-180">
-              <img className="m-auto" width="26" height="36" alt="Figma" src="/assets/collaboration/Photoshop.png"></img>
+              <img className="m-auto" width="26" height="36" alt="Figma" src="/assets/collaboration/Photoshop.png"/>
               </div>
             </li>
             <li className=" absolute left-1/2 top-0 h-1/2 -ml-[2rem] origin-bottom rotate-225">
               <div className="relative -top-[1.6rem] flex w-[4.5rem] h-[4.5rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-225">
-              <img className="m-auto" width="26" height="36" alt="Protopie" src="/assets/collaboration/Protopie.png"></img>
+              <img className="m-auto" width="26" height="36" alt="Protopie" src="/assets/collaboration/Protopie.png"/>
               </div>
             </li>
             <li className=" absolute left-1/2 top-0 h-1/2 -ml-[2rem] origin-bottom rotate-270">
               <div className="relative -top-[1.6rem] flex w-[4.5rem] h-[4.5rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-270">
-              <img className="m-auto" width="26" height="36" alt="Framer" src="/assets/collaboration/Framer.png"></img>
+              <img className="m-auto" width="26" height="36" alt="Framer" src="/assets/collaboration/Framer.png"/>
               </div>
             </li>
             <li className=" absolute left-1/2 top-0 h-1/2 -ml-[2rem] origin-bottom rotate-315">
               <div className="relative -top-[1.6rem] flex w-[4.5rem] h-[4.5rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-315">
-              <img className="m-auto" width="26" height="36" alt="Raindrop" src="/assets/collaboration/Raindrop.png"></img>
+              <img className="m-auto" width="26" height="36" alt="Raindrop" src="/assets/collaboration/Raindrop.png"/>
               </div>
             </li>
           </ul>
