@@ -71,9 +71,9 @@ const Hero = () => {
             ></path>
           </svg>
         </a>
-        <div className="img_container mt-[4rem] lg:mt-[8rem] sm:max-w-[73rem] relative max-w-[33rem] md:max-w-[100rem]  mx-auto xl:mb-24">
+        <div className="img_container mt-[4rem] lg:mt-[8rem] sm:max-w-[73rem] relative max-w-[33rem] md:max-w-[100rem] xl:max-w-[160rem]  mx-auto xl:mb-24">
           {/* <img src="/assets/hero/robot.jpg" className="absloute img_bg" alt="" /> */}
-          <div className="absolute image_inside -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <div className="absolute image_inside -top-[54%] left-1/2 w-[234%] xl:w-[240%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               className="w-full h-full object-cover "
               src="/assets/hero/hero-background.jpg"
@@ -81,7 +81,7 @@ const Hero = () => {
             />
           </div>
           <div className="relative z-1 p-0.5 overflow-hidden rounded-2xl  bg-conic-gradient">
-            <div className="robot_image w-full sm:h-[73vh] md:h-[100vh] lg:h-[65vh]">
+            <div className="robot_image w-full sm:h-[73vh] xl:h-[100vh] md:h-[100vh] lg:h-[65vh]">
               <div className="top_banner w-full absolute"></div>
               <img src="/assets/hero/robot.jpg" alt="" />
               {/* <div className="loading_ai absolute flex justify-start items-center gap-3">
@@ -96,7 +96,7 @@ const Hero = () => {
               <div className="bottom_2"></div>
             </div>
           </div>
-          <div className="absolute circles -top-[79.375rem] left-1/2 w-[78rem] md:w-[100rem] aspect-square border border-n-2/5 rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[32rem]">
+          <div className="absolute circles -top-[79.375rem] left-1/2 w-[78rem] md:w-[100rem] xl:w-[110rem] aspect-square border border-n-2/5 rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[32rem]">
             <div className="absolute top-1/2 left-1/2 w-[65.875rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
             <div className="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
             <div className="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>

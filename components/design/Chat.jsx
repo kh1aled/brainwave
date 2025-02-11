@@ -6,12 +6,12 @@ import Title from "@components/Title";
 
 const Chat = () => {
   return (
-    <section id="chat" className="chat py-20 l lg:py-32 xl:py-40  mt-6">
+    <section id="chat" className="chat relative z-10  py-20 l lg:py-32 xl:py-40  mt-6">
       <div className="container mx-auto ">
 
         <Title myclassName="chat_title" value="AI Chat App for seamless collaboration"/>
 
-        <div className="lg:grid lg:grid-cols-2">
+        <div className="lg:grid lg:grid-cols-2 ">
 
         <div className="list_chats mt-8 ">
           <ul className="list_items flex flex-col justify-start align-items-center gap-20">

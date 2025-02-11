@@ -1,12 +1,11 @@
 "use client";
 import "@components/styles/nav.css";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Button from "@components/Button";
 import Link from "@node_modules/next/link";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
-
 
   return (
     <nav className="navbar w-100 bg-n-9 border-b border-n-6 lg:bg-n-8/90 backdrop-blur-md ">
@@ -19,18 +18,18 @@ const Nav = () => {
 
           {/*links navbar */}
           <div className="nav-links flex-between gap-6">
-            <a href="" className="nav-link">
+            <Link href={"#features"} className="nav-link ">
               Features
-            </a>
-            <a href="" className="nav-link">
+            </Link>
+            <Link href={"#Price"} className="nav-link">
               Pricing
-            </a>
-            <a href="" className="nav-link">
+            </Link>
+            <Link href={"#how"} className="nav-link">
               How to use
-            </a>
-            <a href="" className="nav-link">
+            </Link>
+            <Link href={"#work"} className="nav-link">
               Roadmap
-            </a>
+            </Link>
           </div>
 
           {/* login  */}
@@ -54,16 +53,16 @@ const Nav = () => {
             </div>
           </button>
           {/* 
-          <button class="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 px-3 text-n-1 ml-auto lg:hidden">
-            <span class="relative z-10">
+          <button className="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 px-3 text-n-1 ml-auto lg:hidden">
+            <span className="relative z-10">
               <svg
-                class="overflow-visible"
+                className="overflow-visible"
                 width="20"
                 height="12"
                 viewBox="0 0 20 12"
               >
                 <rect
-                  class="transition-all origin-center"
+                  className="transition-all origin-center"
                   y="0"
                   width="20"
                   height="2"
@@ -72,7 +71,7 @@ const Nav = () => {
                   transform="rotate(0)"
                 ></rect>
                 <rect
-                  class="transition-all origin-center"
+                  className="transition-all origin-center"
                   y="10"
                   width="20"
                   height="2"
@@ -83,7 +82,7 @@ const Nav = () => {
               </svg>
             </span>
             <svg
-              class="absolute top-0 left-0"
+              className="absolute top-0 left-0"
               width="21"
               height="44"
               viewBox="0 0 21 44"
@@ -96,7 +95,7 @@ const Nav = () => {
               ></path>
             </svg>
             <svg
-              class="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]"
+              className="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]"
               height="44"
               viewBox="0 0 100 44"
               preserveAspectRatio="none"
@@ -114,7 +113,7 @@ const Nav = () => {
               ></polygon>
             </svg>
             <svg
-              class="absolute top-0 right-0"
+              className="absolute top-0 right-0"
               width="21"
               height="44"
               viewBox="0 0 21 44"
@@ -133,29 +132,32 @@ const Nav = () => {
             isOpen ? "mobile_list relative active" : "mobile_list myImage"
           }
         >
-          <div class="absolute inset-0 pointer-events-none lg:hidden">
-            <div class="absolute inset-0 opacity-[.03]">
+          <div className="absolute inset-0 pointer-events-none lg:hidden">
+            <div className="absolute inset-0 opacity-[.03]">
               <img
-                class="w-full h-full object-cover"
+                className="w-full h-full object-cover"
                 src="/assets/background.jpg"
                 width="688"
                 height="953"
                 alt="Background"
               />
             </div>
-            <div class="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2">
-              <div class="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-              <div class="absolute top-1/2 left-1/2 w-[23.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2">
+              <div className="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+              <div className="absolute top-1/2 left-1/2 w-[23.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
             </div>
-            <div class="absolute top-0 left-5 w-0.25 h-full bg-n-6"></div>
-            <div class="absolute top-0 right-5 w-0.25 h-full bg-n-6"></div>
-            <div class="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full"></div>
-            <div class="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full"></div>
-            <div class="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full"></div>
+            <div className="absolute top-0 left-5 w-0.25 h-full bg-n-6"></div>
+            <div className="absolute top-0 right-5 w-0.25 h-full bg-n-6"></div>
+            <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full"></div>
+            <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full"></div>
+            <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full"></div>
           </div>
           <ul className="mobile_nav flex-center flex-col gap-2">
             <li className="mob-link" onClick={() => setIsOpen((prev) => !prev)}>
-              <Link href={"#features"} onClick={() => setIsOpen((prev) => !prev)}>
+              <Link
+                href={"#features"}
+                onClick={() => setIsOpen((prev) => !prev)}
+              >
                 Features
               </Link>
             </li>

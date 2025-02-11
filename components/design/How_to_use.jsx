@@ -16,8 +16,8 @@ const How = () => {
           Brainwave unlocks the potential of AI-powered applications
         </p>
       </div>
-      <div className="realtive mt-[8rem]">
-        <div className="relative bg-item z-1 flex items-center justify-center h-[59rem] mb-[3.25rem]  border border-n-10 rounded-3xl overflow-hidden xl:h-[46rem]">
+      <div className="realtive mt-[8rem] xl:px-[5rem]">
+        <div className="relative bg-item z-1 flex items-center justify-center h-[59rem] xl:h-[80rem] mb-[3.25rem]  border border-n-10 rounded-3xl overflow-hidden xl:h-[46rem]">
           <div className=" absolute left-0 top-0 w-full h-full ">
             <img
               className="w-full h-full object-cover md:object-right"
@@ -53,11 +53,11 @@ const How = () => {
           </div>
           <Loading myclassName="how_loading" />
         </div>
-        <div className="lg:grid lg:grid-cols-2 gap-6 lg:px-[5rem]">
-          <div className="relative bg-item-2 z-1 flex items-end justify-center h-[59rem] lg:h-[70rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hiddenxl:h-[46rem]">
+        <div className="lg:grid lg:grid-cols-2 gap-6 lg:px-[5rem] xl:px-[0rem]">
+          <div className="relative bg-item-2 z-1 flex items-end justify-center h-[59rem] lg:h-[70rem] xl:h-[75rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hiddenxl:h-[46rem]">
             <div className=" absolute left-0 top-0 w-full h-full ">
               <img
-                className="w-full h-full object-cover md:object-right"
+                className="w-full h-full object-cover md:object-right rounded-3xl"
                 src="/assets/services/service-2.png"
                 alt=""
               />
@@ -86,7 +86,7 @@ const How = () => {
               </p>
             </div>
           </div>
-          <div className="relative  lg:p-[2rem]  bg-item-3 z-1 flex items-center flex-col justify-start h-[59rem] sm:h-[70rem] mb-[3.25rem] lg:h-[70rem] p-8 border border-n-10 rounded-3xl overflow-hidden  xl:h-[46rem]">
+          <div className="relative  lg:p-[2rem]  bg-item-3 z-1 flex items-center flex-col justify-start h-[59rem] xl:h-[75rem] sm:h-[70rem] mb-[3.25rem] lg:h-[70rem] p-8 border border-n-10 rounded-3xl overflow-hidden  xl:h-[46rem]">
             <div className="relative z-1 max-w-[30rem] mt-[8rem]">
               <h4 className="text-[3.3rem] leading-[1.5rem] mb-4">
                 Photo editing{" "}

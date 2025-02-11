@@ -4,14 +4,14 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="features relative w-full  py-10 lg:py-16 xl:py-20   mt-6"
+      className="features relative w-full  py-10 lg:py-16 xl:py-20 z-100  mt-6"
     >
       <div className="container mx-auto">
         <div className="features_title mb-2 lg:mb-[5rem] ">
           <h1 className="h1 lg:text-center lg:text-[3rem]">Chat Smarter, Not Harder with Brainwave</h1>
         </div>
-        <div className="features_items p-3">
-          <ul className="items md:grid-cols-2">
+        <div className="features_items p-3 ">
+          <ul className="items md:grid-cols-2 xl:grid-cols-3">
             <li className="item myImage relative">
               <div className="image_container absolute top-0 left-0 right-0 bottom-0">
                 <img

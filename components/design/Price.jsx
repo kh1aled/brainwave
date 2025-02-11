@@ -6,27 +6,27 @@ import Tag from "@components/Tag";
 const Price = () => {
   return (
     <section id="Price" className="Price p-4 mt-6">
-      <div class="hidden relative justify-center mb-[6.5rem] lg:flex">
+      <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
         <img
           src="/assets/4-small.png"
-          class="relative z-1"
+          className="relative z-1"
           width="255"
           height="255"
           alt="Sphere"
         />
-        <div class="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-          <img src="/assets/pricing/stars.svg" class="w-full" width="950" height="400" alt="Stars" />
+        <div className="absolute top-1/2 left-1/2 w-[60rem] xl:w-[100rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+          <img src="/assets/pricing/stars.svg" className="w-full" width="950" height="400" alt="Stars" />
         </div>
       </div>
       <div className="container">
-        <Tag myClass={"price_tag"} value={"Get started with Brainwave"} />
+        <Tag myclassName={"price_tag"} value={"Get started with Brainwave"} />
 
         <h2 className="text-[2.75rem] my-6 leading-[2.5rem] lg:text-center lg:text-[4rem]">
           Pay once, use forever
         </h2>
       </div>
       <div className="realtive mt-20 lg:grid lg:grid-cols-3 gap-6 lg:mt-[10rem]">
-        <div className="relative z-1 h-[65rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+        <div className="relative z-1 h-[65rem] xl:h-[73rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
           <h1 className="text-yellow text-[2.75rem] my-4 leading-[2.5rem]">
             Basic
           </h1>
@@ -107,7 +107,7 @@ const Price = () => {
             </li>
           </ul>
         </div>
-        <div className="relative z-1 h-[67rem] lg:-translate-y-12 mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+        <div className="relative z-1 h-[67rem] xl:h-[73rem] lg:-translate-y-12 mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
           <h1 className="text-bink text-[2.75rem] my-4 leading-[2.5rem]">
             Premium
           </h1>
@@ -188,7 +188,7 @@ const Price = () => {
             </li>
           </ul>
         </div>
-        <div className="relative z-1 h-[63rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+        <div className="relative z-1 h-[63rem] xl:h-[73rem] mb-[3.25rem] p-8 border border-n-10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
           <h1 className="text-red text-[2.75rem] my-4 leading-[2.5rem]">
             Enterprise
           </h1>
