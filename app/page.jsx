@@ -7,10 +7,14 @@ import Work from "@components/design/Work";
 import Fotter from "@components/design/Fotter";
 import Features from "@components/design/Features";
 
+
 const page = () => {
+
+
+
   return (
-    <div className='w-full'>
-        <Hero/>
+    <div className='w-full' >
+        <Hero />
         <Features/>
         <Chat/>
         <How/>
